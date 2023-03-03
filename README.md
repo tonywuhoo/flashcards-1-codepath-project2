@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/tonywuhoo/flashcards-1-codepath-project2/blob/master/src/images/presentation.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- https://ezgif.com/ -->
 GIF created with ...  
