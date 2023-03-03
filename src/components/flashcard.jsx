@@ -26,7 +26,7 @@ function Flashcards() {
       }
     }
     // Flips card here
-    if (event.target.className == "card-text") {
+    if (event.target.className == "card-container" || event.target.className == "card-text") {
       if (clicked == false){
         document.getElementsByClassName("card-text")[0].innerHTML = flashcards[counter].Language
         setClickStatus(true)
@@ -43,11 +43,12 @@ function Flashcards() {
       <div>
         Number of Flashcards : {flashcards.length}
       </div>
-      <div className='card-container'>
+      <br></br>
+      <div className='card-container' onClick={handleChange}>
         <div className='card-text' onClick={handleChange}>{flashcards[counter].Hello}</div>
-        <button id = "previous" onClick={handleChange}>Previous</button>
-        <button id = "next" onClick={handleChange}>Next</button>
       </div>
+      <button id = "previous" onClick={handleChange}>Previous</button>
+      <button id = "next" onClick={handleChange}>Next</button>
     </div>
   )
 }

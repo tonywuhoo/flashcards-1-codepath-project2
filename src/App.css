@@ -4,12 +4,22 @@
   padding: 2rem;
   text-align: center;
 }
-.App{
-  
-}
 
 .card-container{
+  border: 2px solid white;
+  height: 200px;
+  width: 400px;
 }
 
 .card-text{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-transform: translate(-50%, -50%);  
+  transform: translate(-50%, -50%);   
+}
+.card-text::selection {
+  background: none;
 }
