@@ -4,7 +4,7 @@ Submitted by: **Tony Wu**
 
 This web app: **The second part to the flashcard project, where now a input form with checks is created to test knowledge of the flashcards**
 
-Time spent: **1** hours spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
@@ -14,7 +14,7 @@ The following **required** functionality is completed:
 - [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
 - [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
 - [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
-- [ ] **A shuffle button is used to randomize the order of the cards**
+- [X] **A shuffle button is used to randomize the order of the cards**
 
 The following **optional** features are implemented:
 
